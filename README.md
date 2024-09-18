@@ -10,6 +10,8 @@ Furthermore, this script also implements *key chords*, just like in vscode, to t
 
 2. Clone this repository (or just download the zip folder and unzip it) somewhere in your computer.
 
+> If you know how to use git, clone this repo and update the submodule using this command: `git submodule update --init --recursive`. In case you don't know or don't want to use git, you could download the zip file from this repository, and enter the other repo (https://github.com/tylerjcw/KeyChord) to download the file `KeyChord.ahk`, and place it into the KeyChord folder. It should work, but if there are some problems, pay attention on the versions.
+
 3. Press the keys `Windows + R` to open the *run* window. Then type `shell:startup` and click OK. This will take you to the folder that is run by Windows everytime that you turn your computer on.
 
 4. Create a shortcut from the file `keys.ahk` and paste it into that startup folder.
